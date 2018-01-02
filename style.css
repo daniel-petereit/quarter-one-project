@@ -1,0 +1,112 @@
+
+label {
+  margin: 20px;
+  color: white;
+}
+
+h1 {
+  font-family: "Monoton";
+  font-size: 75px;
+  background: -webkit-linear-gradient(#930d14, #f4e730);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 100px;
+}
+
+fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+}
+
+.riff-icon {
+  display: inline-block;
+  margin-top: 75px;
+  width: 20%;
+  height: 20%;
+
+}
+
+.fullscreen-bg__video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform:
+    translateX(-50%)
+    translateY(-50%);
+}
+
+.initialInputs {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.theButton {
+  display: flex;
+  justify-content: center;
+}
+
+.rapName {
+  text-align: center;
+  background: -webkit-linear-gradient(#930d14, #f4e730);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position:relative;
+
+}
+
+.btn-style{
+  display: flex;
+  justify-content: center;
+	border : solid 3px #68b2e3;
+	border-radius : 20px;
+	moz-border-radius : 20px;
+	-webkit-box-shadow : 0px 5px 15px rgba(0,0,0,1.0);
+	-moz-box-shadow : 0px 5px 15px rgba(0,0,0,1.0);
+	box-shadow : 0px 5px 15px rgba(0,0,0,1.0);
+	font-size : 20px;
+	color : #696869;
+	padding : 1px 17px;
+	background : #ffffff;
+	background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6));
+	background : -moz-linear-gradient(top, #ffffff 0%, #e1e1e1 51%, #f6f6f6 100%);
+	background : -webkit-linear-gradient(top, #ffffff 0%, #e1e1e1 51%, #f6f6f6 100%);
+	background : -o-linear-gradient(top, #ffffff 0%, #e1e1e1 51%, #f6f6f6 100%);
+	background : -ms-linear-gradient(top, #ffffff 0%, #e1e1e1 51%, #f6f6f6 100%);
+	background : linear-gradient(top, #ffffff 0%, #e1e1e1 51%, #f6f6f6 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+}
+
+#nameForm {
+  font-weight:100;
+  background: rgba(0,0,0,0.3);
+  color: black;
+  padding: 1.5rem;
+  width: 33%;
+  margin:2rem;
+  float: right;
+  font-size: 1.2rem;
+  border-radius: 20%;
+}
